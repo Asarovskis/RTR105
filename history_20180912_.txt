@@ -1,0 +1,18 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox&
+    4  uname -a
+    5  echo $0
+    6  whoami
+    7  who
+    8  pwd
+    9  man pwd
+   10  ls -l
+   11  root@tecmint:~# telnet towel.blinkenlights.nl
+   12  ls -a
+   13  ls -la
+   14  history
+   15  ._18.09.12
+   16  man history
+   17  history>history_20180912
+   18  history>history_20180912_.txt
