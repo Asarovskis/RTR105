@@ -40,3 +40,5 @@
   20  history > history.txt
   
   21 man cat kas atrodas failā
+  22 $PATH ļauj veidot pārmaiņas failā
+  23 
