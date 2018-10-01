@@ -1,0 +1,57 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox &
+    4  python
+    5  ipython
+    6  idle &
+    7  ls -l
+    8  cat dgr
+    9  cat dgr_2018.10.01.py 
+   10  git clone https://github.com/asarovskis
+   11  git clone https://github.com/Asarovskis
+   12  git clone https://github.com/Asarovskis/RTR105
+   13  mv dgr_2018.10.01.py  rtr105
+   14  ls -
+   15  ls -l
+   16  cd rtr105/
+   17  cd RTR105
+   18  LS -L
+   19  ls -l
+   20  cd
+   21  ls -l
+   22  cd rtr105
+   23  cd rtr105/
+   24  cd rtr105
+   25  git clone https://github.com/Asarovskis/RTR105
+   26  mv dgr_2018.10.01.py  rtr105
+   27  cd rtr105
+   28  cd rtr105/
+   29  git clone https://github.com/Asarovskis/RTR105
+   30  mv dgr_2018.10.01.py  rtr105
+   31  history 
+   32  mv rtr105 RTR105/dgr_20181001.py
+   33  ls -l
+   34  cd RTR105/
+   35  ls -l
+   36  nano test1_py
+   37  nano test1.py
+   38  open nano
+   39  nano test1.py
+   40  python test1_1.py
+   41  idle test_1.py
+   42  idle test_1.py&
+   43  ls -l
+   44  /home/user/rtr105/test_1.py
+   45  history
+   46  history > history_20181010.txt
+   47  ls -l
+   48  ./
+   49  ./git-upload 20181001_17_46
+   50  ls-l
+   51  git upload.sh
+   52  nanot git-upload.sh
+   53  nano git-upload.sh
+   54  ls -l
+   55  chmod 764 git-upload.sh 
+   56  ls -l
+   57  history > history_20181001.txt
