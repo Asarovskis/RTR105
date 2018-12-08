@@ -1,0 +1,41 @@
+# -*- coding: utf-8 -*-
+from math import exp
+def mans_exp(x):
+    k = 0
+    a = (-1)**0*x**0/(1)
+    S = a
+    print("Izdruka no liet.f. a0 = %6.2f S0 = %6.2f"%(a,S))
+
+    while k < 500:
+        k = k + 1
+        R = ((-1**k)*(x**k))/((k+1)*k)
+        a = a * R
+        S = S + a
+        if k == 499:
+             print("Izdruka liet.f. a499 = %6.2f S499 = %6.2f"%(a,S))
+    print("Izdruka no liet.f. a500 = %6.2f S500 = %6.2f"%(a,S))
+    print("Izdruka no liet.f. Beigas!")
+    return S
+
+x = float(input("Lietotāj, lūdzu, ievadi argumentu (x): "))
+y = (1-x)*exp(-x)
+print("standarta sin(%.2f) = %6.2f"%(x,y))
+yy = mans_exp(x)
+m=u"/u221E"
+print("mans sin(%.2f) = %6.2f"%(x,yy))
+print("")
+print("            1000")
+print("           _______")
+print("           \             k     k")
+print("            \        (-1)   * x")
+print("sin(",x,") = >     ________________ ")
+print("            / ")
+print("           /______              k!")
+print("           ")
+print("")
+print("                                 k    k ")
+print("                             (-1)  * x  ")
+print("rekurences reizinatajs :  __________________")
+print("                         ")
+print("                              (k+1)*k")
+
