@@ -1,3 +1,5 @@
+# Laboratorijas darbs Nr1-Teilora rainda Artūrs Asars-Asarovskis Rebco1
+#Tiek izveidota nulles funkcija kā arī tiek piedefinēts, ka funkcija ir eksponenciāla
 # -*- coding: utf-8 -*-
 from math import exp
 def mans_exp(x):
@@ -5,6 +7,7 @@ def mans_exp(x):
     a = (-1)**0*x**0/(1)
     S = a
     print("Izdruka no liet.f. a0 = %6.2f S0 = %6.2f"%(a,S))
+#Pēc pirmā elementa tiek izprinēts arī 499. un 500. elements 
 
     while k < 500:
         k = k + 1
@@ -16,6 +19,7 @@ def mans_exp(x):
     print("Izdruka no liet.f. a500 = %6.2f S500 = %6.2f"%(a,S))
     print("Izdruka no liet.f. Beigas!")
     return S
+#Noformē rezulāta izskatu, kā arī izveido argumenta x ievades punktu Izprinē (1-x)*exp(-x) funkciju
 
 x = float(input("Lietotāj, lūdzu, ievadi argumentu (x): "))
 y = (1-x)*exp(-x)
