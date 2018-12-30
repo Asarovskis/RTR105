@@ -6,11 +6,11 @@
 
 # -*- coding: utf-8 -*-
 
-from math import sin, fabs
+from math import exp, fabs
 from time import sleep
 
 def f(x):
-    return sin(x)
+    return (1-x)*exp(-x)
 
 # Definejam argumenta x robežas 
 a = 1.1
